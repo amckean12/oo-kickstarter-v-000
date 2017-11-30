@@ -1,7 +1,7 @@
 class Project
-  attr_accessor :project
+  attr_accessor :title
 
-  def initialize(name)
-    @project = name
+  def initialize(title)
+    @title = title
   end
 end
